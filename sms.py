@@ -1,6 +1,6 @@
 import nexmo
 
-client = nexmo.Client(key='768bd160', secret='Yjhic3pfcnHriRc5')
+client = nexmo.Client(key='your key', secret='your secret key')
 
 client.send_message({
     'from': 'your name',
